@@ -1,9 +1,3 @@
-Here’s a **full, drop-in `README.md`** that never asks the user to hand-type an output filename.
-Single-cookbook runs use a small wrapper (`bin/extract`) that auto-names to `out/<cookbook>.json`.
-Bulk runs (`batch_runner.py`) already auto-name per repo/commit/cookbook.
-
----
-
 # Chef Facts Extractor
 
 Deterministic, parser-based extraction of **Chef Infra** facts from cookbooks.
